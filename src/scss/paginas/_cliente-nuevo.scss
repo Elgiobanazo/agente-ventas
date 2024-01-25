@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.cliente-nuevo {
+    background-color: white;   
+    border-radius: 1rem;
+}
+
+.button-container {
+    display: flex;
+    margin-bottom: 1rem;
+
+    &__back {
+        background-color: rgb(43, 117, 255);
+        color: white;
+        padding: 1rem;
+        border-radius: .5rem;
+        margin-left: auto;
+        font-size: 1.6rem;
+    }
+}

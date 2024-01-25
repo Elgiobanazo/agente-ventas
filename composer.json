@@ -1,0 +1,21 @@
+{
+    "name": "giobanazo/agente-ventas",
+    "description": "Proyecto de agente de ventas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giovanny Orozco Quintero https://github.com/Elgiobanazo"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

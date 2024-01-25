@@ -1,0 +1,16 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.auth {
+    background-color: rgb(2, 7, 27);
+    
+    &__contenido {
+        @include m.contenedor-sm;
+        background-color: v.$blue_black;   
+        border-radius: 2rem;
+        border: 3px solid v.$rain;
+        margin: 8rem auto; 
+        padding: 1rem 2rem;
+        box-shadow: 0 0 50px 10px rgb(9, 9, 80);
+    }
+}
